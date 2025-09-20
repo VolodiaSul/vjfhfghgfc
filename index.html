@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bambu Lab</title>
+  <style>.a{
+    width:900px;
+    height: 413px;
+    text-align: center;
+    margin: auto;
+}
+
+div{
+        background-color: #f9f9f9;
+    max-width: 900px;
+    border-radius: 10px;
+    padding: 50px;
+    margin:70px auto;
+    box-shadow: 0 4px 20px rgb(255, 255, 255);
+    line-height: 1.8;
+}
+
+body{
+    background-color: black;
+}
+
+.o{
+    text-align: center;
+    font-size: 128px;
+}
+
+a {
+  background-color: black;
+  color: white;
+  padding: 4px 10px;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border: none;
+  border-radius: 9999px; 
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  overflow: hidden;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+a::before {
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  right: -3px;
+  bottom: -3px;
+  border-radius: 9999px;
+  background: linear-gradient(
+    60deg,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet,
+    red
+  );
+  background-size: 300%;
+  z-index: -1;
+  filter: blur(6px);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  animation: rainbow-glow 3s linear infinite;
+}
+
+a:hover::before {
+  opacity: 1;
+}
+
+a:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.15);
+}
+
+@keyframes rainbow-glow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+nav {
+  text-align: center;
+}</style>
+</head>
+
+<body>
+ <div>
+    <nav>
+        <a href="https://volodiasul.github.io/ksvhsbvVKBBJDVHJDKVKJSZVF/">3D принтери</a>
+        <a href="https://volodiasul.github.io/hkhkbjbk/">інші компанії</a>
+        <a href="https://volodiasul.github.io/ldfhdfghjkjhgfdfg/">відео</a>
+    </nav>
+<p class="o">Bambu Lab</p>
+<img src="https://preview.redd.it/fixed-the-bambu-lab-logo-v0-ijhp3rpeq2oe1.png?auto=webp&s=851b4734b792b335266ce7797fb8724e1b2dca58" class="a">
+</div>   
+</body>
+</html>
